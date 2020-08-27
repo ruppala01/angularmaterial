@@ -43,7 +43,7 @@ import {MatTreeModule} from '@angular/material/tree';
 
 @NgModule({
   exports: [
-    /* A11yModule,
+    A11yModule,
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
@@ -53,9 +53,9 @@ import {MatTreeModule} from '@angular/material/tree';
     MatBottomSheetModule,
     MatButtonModule,
     MatButtonToggleModule,
-    MatCardModule, */
+    MatCardModule,
     MatCheckboxModule,
-   /*  MatChipsModule,
+    MatChipsModule,
     MatStepperModule,
     MatDatepickerModule,
     MatDialogModule,
@@ -84,7 +84,7 @@ import {MatTreeModule} from '@angular/material/tree';
     MatTooltipModule,
     MatTreeModule,
     PortalModule,
-    ScrollingModule, */
+    ScrollingModule,
   ]
 })
 export class MyMaterialModule {}

@@ -1,0 +1,10 @@
+<mat-menu #myMenu="matMenu">
+    <button mat-menu-item>profile</button>
+    <button mat-menu-item>Account</button>
+    <button mat-menu-item>Set-up</button>
+</mat-menu>
+
+
+<mat-toolbar>
+    <button mat-button [matMenuTriggerFor]="myMenu">The Menu</button>
+</mat-toolbar>

@@ -7,11 +7,18 @@ import { AppComponent } from './app.component';
 
 
 import { MyMaterialModule } from './my-material.module';
-
+import {MatCheckBoxUsageComponent} from './mat-check-box-usage/mat-check-box-usage.component';
+import { MatSliderToggleUsageComponent } from './mat-slider-toggle-usage/mat-slider-toggle-usage.component';
+import { MenuToolbarUsageComponent } from './menu-toolbar-usage/menu-toolbar-usage.component';
+import { SideNavUsageComponent } from './side-nav-usage/side-nav-usage.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MatCheckBoxUsageComponent,
+    MatSliderToggleUsageComponent,
+    MenuToolbarUsageComponent,
+    SideNavUsageComponent,
   ],
   imports: [
     BrowserModule,

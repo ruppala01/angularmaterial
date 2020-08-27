@@ -1,0 +1,15 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened="true" position="start" #startNav > Left Side</mat-sidenav>
+    <mat-sidenav mode="side" opened="true" position="end" #endNav >Right Side </mat-sidenav>
+    <mat-sidenav-content>
+        <button (click)="toggleStartSidenav()"> Toggle start sidenav</button>
+        <ng-container *ngTemplateOutlet="myDrawer"></ng-container>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<ng-template #myDrawer>
+    <mat-drawer-container>
+        <mat-drawer mode="side" opened="true" style="background-color: yellow;">Drawer Content</mat-drawer>
+        <mat-drawer-content style="background-color: green;">Drawer Content</mat-drawer-content>
+    </mat-drawer-container>
+</ng-template>
