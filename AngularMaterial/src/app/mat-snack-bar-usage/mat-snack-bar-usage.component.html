@@ -1,0 +1,8 @@
+<mat-form-field>
+    <input matInput #firstName value="Raveendra">
+</mat-form-field>
+<mat-form-field>
+    <input matInput #lastName value="Uppala">
+</mat-form-field>
+
+<button mat-button (click)="showSnackBar(firstName.value,lastName.value)" > Click Me you will get snack bar !</button>
